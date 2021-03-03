@@ -13,7 +13,6 @@ struct SearchForArtist: View {
     @State var isDetailListShown = false
     @State var isLoading = false
     @State var thereIsAnError = false
-//    @StateObject var viewModel = SearchForArtistViewModel()
     
     var body: some View {
         ZStack {
